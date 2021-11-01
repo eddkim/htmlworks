@@ -1,0 +1,6 @@
+nav ul{list-style: none; }
+nav ul li{display: inline-block; margin: 10px; border-top: 3px solid #222; 
+    padding: 10px; /*여러가지 속성이 들어가면 인라인 블록 해주기*/}
+nav ul li a {text-decoration: none; color: #000;}
+nav ul li a :hover{color: red;}
+nav ul li:hover{color: red;}

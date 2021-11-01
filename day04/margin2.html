@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>마진 관련 속성</title>
+    <style>
+        /*겹치는 마진은 더해져서 여백이 더 커지는게 아니라,  합쳐짐 ex) 30+30 = 30, 40+30 = 40  좌우는 합산 적용 */
+        div{width: 200px; height: 100px; margin: 30px; display: inline-block;} /* inline-block : 가로로 배치 */
+        .box1{background-color: red;}
+        .box2{background-color:green;}
+        .box3{background-color:blue;}
+    </style>
+</head>
+<body>
+    <div class = "box1"></div>
+    <div class = "box2"></div>
+    <div class = "box3"></div>
+</body>
+</html>

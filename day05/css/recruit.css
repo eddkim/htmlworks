@@ -1,0 +1,10 @@
+body{background-color: #02233b;}
+#container{width: 700px;height: 800px; margin:0 auto;; 
+    padding: 20px; background:#fff url(../images/mic.png)no-repeat right bottom;
+}
+h1{background-color: #004344; text-align: center; padding :20px; color: white;
+}
+h2{text-align: center; font-style: italic;}
+h3{color: orange;}
+ul li{list-style: none; margin : 10px;}
+    
