@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform(변형) 속성</title>
+    <style>
+
+        div.b{width: 150px; height: 80px; background: greenyellow;}
+        div.b:hover{-webkit-transform: rotate(30deg); /*크롬, 사파리 브라우저 지원*/
+            -ms-transform: rotate(30deg); /*ms 익스플로러 지원*/
+            -moz-transform: rotate(30deg); /*모질라 브라우저 지원*/
+            transform: rotate(30deg);}
+        div.c{width: 150px; height: 80px; background: greenyellow;}
+        div.c:hover{-webkit-transform: translateX(50px); /*크롬, 사파리 브라우저 지원*/
+            -ms-transform:  translateX(50px); /*ms 익스플로러 지원*/
+            -moz-transform:  translateX(50px); /*모질라 브라우저 지원*/
+            transform: translateX(50px);}
+        div.d{width: 150px; height: 80px; background: greenyellow;}
+        div.d:hover{-webkit-transform: translateY(-50px); /*크롬, 사파리 브라우저 지원*/
+            -ms-transform:translateY(-50px); /*ms 익스플로러 지원*/
+            -moz-transform: translateY(-50px); /*모질라 브라우저 지원*/
+            transform: translateY(-50px);}
+        div.e{width: 150px; height: 80px; background: greenyellow;}
+        div.e:hover{-webkit-transform: scaleY(1.5);font-size: 30px; /*크롬, 사파리 브라우저 지원*/
+            -ms-transform: scaleY(1.5);font-size: 30px; /*ms 익스플로러 지원*/
+            -moz-transform: scaleY(1.5);font-size: 30px; /*모질라 브라우저 지원*/
+            transform: scaleY(1.5);font-size: 30px;}
+    </style>
+</head>
+
+    <h2>transform : rotate(30deg) - 30도 회전</h2>
+    <div class="b">Hello World !</div>
+
+
+    <h2>transform : translateX(50px) - 50px 이동</h2>
+    <div class="c">Hello World !</div>
+
+    <h2>transform : translateY(50px) - 50px 이동</h2>
+    <div class="d">Hello World !</div>
+
+    <h2>transform : scaleY(50px) - y축으로 1.5배 커짐</h2>
+    <div class="e">Hello World !</div>
+</body>
+</html>

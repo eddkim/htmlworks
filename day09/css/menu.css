@@ -1,0 +1,9 @@
+*{margin: 0; padding: 0;}
+#container{width: 960px;margin: 0 auto;}
+nav{height: 80px;}
+nav ul{list-style: none;border-bottom: 2px solid #ccc;
+padding: 20px; text-align: center;}
+nav ul li{display: inline-block; margin: 10px 20px;}
+nav a:link, a:visited{text-decoration: none;}
+nav a:hover{background: #222; color: beige;} /* 갖다대면 적용 */
+nav a:active{background: red;} /*클릭시 적용*/
